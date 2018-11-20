@@ -128,7 +128,7 @@ $(document).ready(function(){
       if(currentPlayer == redPlayer){
         currentPlayer = yellowPlayer;
       }
-      else {
+      else {    
         currentPlayer = redPlayer;
       }
       currentColor = currentPlayer.playerColor;
